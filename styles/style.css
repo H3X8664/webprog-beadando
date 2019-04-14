@@ -1,0 +1,89 @@
+body{
+	font-family: sans-serif;
+}
+header, footer{
+	width: 100%;
+	background-image: url("../images/header.jpg");
+	background-size: cover;
+padding: 20px;
+}
+header .fejlec_cim{
+	color: #b30059;
+	padding: 10px;
+}
+.content{
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+.message{
+	border: 2px solid black;
+	padding: 10px;
+	background-color: #ffd1b3;
+}
+
+label { display: block; }
+iframe, video{
+	min-width: 100%;
+}
+/*Dobozok*/
+.box{
+	border: 2px solid black;
+	padding: 4px;
+	margin-bottom: 5px;
+	max-width: 100%;
+}
+/*Videó*/
+.embed-container{ 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+/*Galéria*/
+div.gallery {margin: 0 auto; width: 660px;}
+    div.image { display: inline-block; }
+    div.image img { width: 200px; }
+
+/*Menü - navbar*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+div#galeria {margin: 0 auto; width: 620px;}
+        div.kep { display: inline-block; }
+        div.kep img { width: 200px; }
